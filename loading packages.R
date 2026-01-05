@@ -1,8 +1,11 @@
-# Clear the R environment
-rm(list = ls())
+###############################################
+# 1. Setup: Install and load required packages
+###############################################
 
-# Load required libraries
-library(shiny)      # Web application framework
-library(ggplot2)    # Data visualization
-library(dplyr)      # Data manipulation
-library(reshape2)   # Data reshaping for heatmap
+# Install packages once (run only if not installed)
+# install.packages("tidyverse")
+# install.packages("shiny")
+
+# Load libraries
+library(tidyverse)  # includes dplyr, ggplot2, tidyr, readr, etc.
+library(shiny)      # for Shiny web application
